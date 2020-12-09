@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from "prop-types"
+
 
 import Stats from './Stats'
 
@@ -22,6 +24,16 @@ const Profile = ({name,tag,location,avatar,stats }) => {
 
 </div>
 }
+
+Profile.propTypes = {
+  name: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  }
+
+
+
 
 
 export default Profile

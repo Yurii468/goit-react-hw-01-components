@@ -1,0 +1,34 @@
+.transactions{
+    width: 300px;
+    text-align:center;
+    border: 1px solid;
+    border-radius: 10px;
+
+}
+.transactionsList{
+    text-align: center;
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+
+
+  
+    
+}
+.transactionsListItem{
+     width: 33%;
+    text-align: center;
+    padding: 18px 5px;
+    border:1px solid;
+    border-radius: 10px;
+  
+    
+}
+
+.grey{
+    background-color:grey;
+}
+
+.white{
+    background-color:white;
+}

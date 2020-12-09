@@ -1,0 +1,37 @@
+.statusOnline {
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.statusOffline{  width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: red;
+
+}
+
+.item{
+    display: flex;
+    width: 200px;
+    margin: 0px;
+    border-radius: 1px;
+         width: 33%;
+    text-align: center;
+    padding: 18px 5px;
+    border:1px solid;
+    border-radius: 10px;
+  
+}
+.friendList{ 
+    width: 1000px;
+    display: flex;
+    text-align:center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 
 import s from './Stats.module.css'
@@ -20,6 +21,12 @@ const Stats = ({followers,views,likes }) => {
       <span className={s.quantity}>{likes}</span>
     </li>
   </ul>
+}
+Stats.propTypes = {
+  followers:PropTypes.number,
+  views:PropTypes.number,
+  likes:PropTypes.number,
+  
 }
 
 
